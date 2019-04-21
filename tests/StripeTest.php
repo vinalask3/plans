@@ -1,6 +1,6 @@
 <?php
 
-namespace Rennokki\Plans\Test;
+namespace Vinalask3\Plans\Test;
 
 use Carbon\Carbon;
 
@@ -14,9 +14,9 @@ class StripeTest extends TestCase
     {
         parent::setUp();
 
-        $this->user = factory(\Rennokki\Plans\Test\Models\User::class)->create();
-        $this->plan = factory(\Rennokki\Plans\Models\PlanModel::class)->create();
-        $this->newPlan = factory(\Rennokki\Plans\Models\PlanModel::class)->create();
+        $this->user = factory(\Vinalask3\Plans\Test\Models\User::class)->create();
+        $this->plan = factory(\Vinalask3\Plans\Models\PlanModel::class)->create();
+        $this->newPlan = factory(\Vinalask3\Plans\Models\PlanModel::class)->create();
 
         $this->initiateStripeAPI();
     }

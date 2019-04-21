@@ -1,6 +1,6 @@
 <?php
 
-namespace Rennokki\Plans;
+namespace Vinalask3\Plans;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rennokki\Plans\Helpers;
+namespace Vinalask3\Plans\Helpers;
 
 class StripeHelper
 {

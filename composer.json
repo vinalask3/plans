@@ -1,5 +1,5 @@
 {
-    "name": "rennokki/plans",
+    "name": "Vinalask3/plans",
     "description": "Laravel Plans is a package for SaaS apps that need management over plans, features, subscriptions, events for plans or limited, countable features.",
     "keywords": [
         "eloquent",
@@ -10,13 +10,13 @@
         "model",
         "saas"
     ],
-    "homepage": "https://github.com/rennokki/plans",
+    "homepage": "https://github.com/Vinalask3/plans",
     "license": "MIT",
     "authors": [
         {
             "name": "Alex Renoki",
-            "email": "rennokki@gmail.com",
-            "homepage": "https://twitter.com/rennokki",
+            "email": "Vinalask3@gmail.com",
+            "homepage": "https://twitter.com/Vinalask3",
             "role": "Developer"
         }
     ],
@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Rennokki\\Plans\\": "src"
+            "Vinalask3\\Plans\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rennokki\\Plans\\Test\\": "tests"
+            "Vinalask3\\Plans\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rennokki\\Plans\\PlansServiceProvider"
+                "Vinalask3\\Plans\\PlansServiceProvider"
             ]
         }
     },

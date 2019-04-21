@@ -1,16 +1,16 @@
 <?php
 
-namespace Rennokki\Plans\Test;
+namespace Vinalask3\Plans\Test;
 
 use Stripe\Stripe;
 use Stripe\Token as StripeToken;
-use Rennokki\Plans\Models\PlanModel;
-use Rennokki\Plans\Test\Models\User;
-use Rennokki\Plans\Models\PlanFeatureModel;
+use Vinalask3\Plans\Models\PlanModel;
+use Vinalask3\Plans\Test\Models\User;
+use Vinalask3\Plans\Models\PlanFeatureModel;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Rennokki\Plans\Models\StripeCustomerModel;
-use Rennokki\Plans\Models\PlanSubscriptionModel;
-use Rennokki\Plans\Models\PlanSubscriptionUsageModel;
+use Vinalask3\Plans\Models\StripeCustomerModel;
+use Vinalask3\Plans\Models\PlanSubscriptionModel;
+use Vinalask3\Plans\Models\PlanSubscriptionUsageModel;
 
 abstract class TestCase extends Orchestra
 {
@@ -32,7 +32,7 @@ abstract class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            \Rennokki\Plans\PlansServiceProvider::class,
+            \Vinalask3\Plans\PlansServiceProvider::class,
         ];
     }
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Rennokki\Plans\Test\Models;
+namespace Vinalask3\Plans\Test\Models;
 
-use Rennokki\Plans\Traits\HasPlans;
+use Vinalask3\Plans\Traits\HasPlans;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable

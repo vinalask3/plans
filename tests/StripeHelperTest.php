@@ -1,8 +1,8 @@
 <?php
 
-namespace Rennokki\Plans\Test;
+namespace Vinalask3\Plans\Test;
 
-use Rennokki\Plans\Helpers\StripeHelper;
+use Vinalask3\Plans\Helpers\StripeHelper;
 
 class StripeHelperTest extends TestCase
 {

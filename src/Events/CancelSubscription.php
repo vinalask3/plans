@@ -1,6 +1,6 @@
 <?php
 
-namespace Rennokki\Plans\Events;
+namespace Vinalask3\Plans\Events;
 
 use Illuminate\Queue\SerializesModels;
 
